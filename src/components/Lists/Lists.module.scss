@@ -2,22 +2,29 @@
 @import '../../styles/settings.scss';
 
 .lists {
-  margin-top: $base-size * 2;
+    margin-top: $base-size * 2;
+
+    h3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .heading {
-  text-align: center;
+    text-align: center;
 }
 
 .listLink {
-  display: block;
-  max-width: $base-size * 35;
-  margin: ($base-size * 2) auto ($base-size * 2) auto;
-  text-decoration: none;
-  color: $color-dark;
-  background: $color-light;
-  margin-bottom: $base-size;
-  border-radius: $radius;
-  box-shadow: 0 math.div($base-size, 4) 0 rgba(0,0,0,0.3);
-  padding: $base-size;
+    display: block;
+    max-width: $base-size * 35;
+    margin: ($base-size * 2) auto ($base-size * 2) auto;
+    text-decoration: none;
+    color: $color-dark;
+    background: $color-light;
+    margin-bottom: $base-size;
+    border-radius: $radius;
+    box-shadow: 0 math.div($base-size, 4) 0 rgba(0,0,0,0.3);
+    padding: $base-size;
 }
